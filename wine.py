@@ -8,7 +8,7 @@ from streamlit_option_menu import option_menu
 
 # loading the saved models
 
-wine_model = pickle.load(open('E:\ml projects\Classification Machine Learning Projects 6\Wine Quality Prediction using Machine Learning with Python\web\wine1_model.sav', 'rb'))
+wine_model = pickle.load(open('wine1_model.sav', 'rb'))
 
 
 
